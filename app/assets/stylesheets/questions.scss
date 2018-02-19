@@ -2,6 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
-  background-color: rgba(0,0,0,0.2);
+  background-color: #F4F4F4;
 }
 
+h1,p,a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin-left: 20px;
+  padding: 5px;
+  border-left: solid 8px rgba(0,0,0,0.3);
+  margin-top: 20px;
+}
+.answer {
+  background-color: #F4E8C1;
+}
+.question {
+  padding: 10px;
+  margin-left: 20px;
+}
